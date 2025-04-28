@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#carbon-container {
+  padding: 0;
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#carbon-header {
+  background: linear-gradient(135deg, #4CAF50 0%, #66bb6a 100%);
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#carbon-header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#carbon-header .subtitle {
+  display: block;
+  margin: 5px auto 0 auto;
+  font-size: 14px;
+  opacity: 0.85;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: fit-content;
+  position: relative;
+  left: 10px;
+}
+
+#carbon-result {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+  padding: 20px;
+}
+
+/* Table styling inside results */
+#carbon-result table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#carbon-result th, #carbon-result td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#carbon-result th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#carbon-result tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#carbon-result tr:hover {
+  background-color: #f1f1f1;
+}
