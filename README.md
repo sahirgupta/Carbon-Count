@@ -21,10 +21,11 @@
 ## 🛠️ Installation
 
 1. Download or clone this repository.
-2. Open **Google Chrome** and navigate to `chrome://extensions/`.
-3. Enable **Developer Mode** (top right corner).
-4. Click **"Load unpacked"** and select the `The extenstiom` folder.
-5. The Carbon Count extension should now appear in your extensions bar!
+2. Replace `OPENAI_API_KEY` in `sidebar.js` with your own API key, which you can generate at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys).
+3. Open **Google Chrome** and navigate to `chrome://extensions/`.
+4. Enable **Developer Mode** (top right corner).
+5. Click **"Load unpacked"** and select the `The extenstiom` folder.
+6. The Carbon Count extension should now appear in your extensions bar!
 
 ## 🗂️ File Structure
 
